@@ -1,8 +1,8 @@
 import { useQuery } from "@tanstack/react-query";
 import { fetchProducts } from "../fetching/fetchProducts";
-import ProductCard from "../components/ProductCard";
-import Loading from "../components/Loading";
-import FetchingError from "../components/FetchingError";
+import ProductCard from "../components/cards/ProductCard";
+import Loading from "../components/fetch-states/FetchLoading";
+import FetchingError from "../components/fetch-states/FetchingError";
 
 export default function Home() {
   const productsQuery = useQuery({

@@ -1,8 +1,8 @@
 import { useMemo } from "react";
-import CartItemCard from "../components/CartItemCard";
+import CartItemCard from "../components/cards/CartItemCard";
 import { useCartContext } from "../context/CartContext";
 import { Button } from "@mui/material";
-import ClearCartDialog from "../components/ClearCartDialog";
+import ClearCartDialog from "../components/dialogs/ClearCartDialog";
 
 export default function ShoppingCart() {
   const { itemsInCart } = useCartContext();
