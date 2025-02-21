@@ -1,8 +1,8 @@
 import { IconButton } from "@mui/material";
-import { CartItem } from "../types";
+import { CartItem } from "../../types";
 import { FaMinusCircle, FaPlusCircle } from "react-icons/fa";
-import { useCartContext } from "../context/CartContext";
-import RemoveItemDialog from "./RemoveItemDialog";
+import { useCartContext } from "../../context/CartContext";
+import RemoveItemDialog from "../dialogs/RemoveItemDialog";
 
 export default function CartItemCard({ itemData }: { itemData: CartItem }) {
   const { setItemsInCart } = useCartContext();

@@ -7,7 +7,7 @@ import {
   DialogTitle,
 } from "@mui/material";
 import { useState } from "react";
-import { useCartContext } from "../context/CartContext";
+import { useCartContext } from "../../context/CartContext";
 
 export default function ClearCartDialog() {
   const [open, setOpen] = useState(false);
