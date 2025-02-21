@@ -1,5 +1,5 @@
-import { useCartContext } from "../context/CartContext";
-import { Product } from "../types";
+import { useCartContext } from "../../context/CartContext";
+import { Product } from "../../types";
 import { Button } from "@mui/material";
 
 export default function ProductCard({ productData }: { productData: Product }) {

@@ -7,9 +7,9 @@ import {
   DialogTitle,
   IconButton,
 } from "@mui/material";
-import { useCartContext } from "../context/CartContext";
+import { useCartContext } from "../../context/CartContext";
 import { FaTrash } from "react-icons/fa";
-import { CartItem } from "../types";
+import { CartItem } from "../../types";
 import { useState } from "react";
 
 export default function RemoveItemDialog({ itemData }: { itemData: CartItem }) {
